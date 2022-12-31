@@ -1,0 +1,7 @@
+react-notes:
+  build: ./react-notes
+  container_name: react-notes_c
+  ports:
+   - '3000:3000'
+  stdin_open: true
+  tty: true
